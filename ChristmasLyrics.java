@@ -92,12 +92,12 @@ public class ChristmasLyrics {
                         Seven swans a swimming, six geese a laying, five gold rings
                         Four calling birds, three French hens
                         Two turtle doves and a partridge in a pear tree""");
-                    default -> {
+                    default ->
                         System.out.println("You can only enter verse number from day 1- 12 !!!");
-                        day++;
-                    }
+
+
                 }
-            }    while (day<=12);
+                day++;   }    while (day<=12);
         }
 
     }
