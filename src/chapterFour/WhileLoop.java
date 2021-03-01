@@ -36,7 +36,7 @@ public class WhileLoop {
             System.out.println("Guess a number between 40 -55 in three trials");
 
             while (number != -1) {
-                System.out.print("enter number enter -1 to exit ");
+                System.out.print("Enter number or enter -1 to exit ");
                 number = sc.nextInt();
                 if (number == 45) {
                     System.out.print("you win");
